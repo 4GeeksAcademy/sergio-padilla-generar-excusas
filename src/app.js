@@ -1,10 +1,10 @@
 window.onload = function() {
 
-  let primero = "A ";
-  let adj = ["dos cabezas", "nuclear", "enojado", "solitario", "loco", "brillante", "maloliente", "lento", "viejo"]; 
+  let primero = "Un ";
+  let adj = ["con dos cabezas ", "nuclear ", "enojado ", "solitario ", "loco ", "brillante ", "maloliente ", "lento ", "viejo "]; 
   let sustantivo = ["corredor ", "mapache ", "perro ", "comerciante ", "conductor ", "comediante ", "piña "]; 
   let accion = ["tomó mi ", "tiró mi ", "le grité a mi ", "pateé mi ", "robé mi ", "quemé mi ", "mordí mi ", "golpeé mi "]; 
-  let posesion = ["dedo del pie", "coche", "reloj", "zapato", "cartera", "camisa", "llaves", "ordenador", "teléfono", "sándwich"]; 
+  let posesion = ["dedo del pie ", "coche ", "reloj ", "zapato ", "cartera ", "camisa ", "llaves ", "ordenador ", "teléfono ", "sándwich "]; 
   let donde = ["en la calle", "en mi casa", "en la entrada de mi casa", "frente a la oficina", "cerca del centro comercial", "cerca del baño", "en la estación de autobuses"];
 
   // declaring random variables
@@ -16,3 +16,4 @@ window.onload = function() {
 
   document.querySelector("#excuse").innerHTML = primero + adj[rdm1] + sustantivo[rdm2] + accion[rdm3] + posesion[rdm4] + donde[rdm5];
   
+}
